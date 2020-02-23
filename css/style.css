@@ -47,6 +47,7 @@ h3{
   padding-bottom: 50px;
 }
 .row{
+  padding-top: 10px;
   text-align: center;
 }
 .contact{
@@ -55,10 +56,13 @@ h3{
   text-align: center;
   color: white;
   padding-top: 60px;
-  padding-bottom: 240px;
+  padding-bottom: 120px;
+  overflow: hidden;
 }
 .icon{
   padding-top: 20px;
   padding-bottom: 40px;
   text-align: center;
+}#fill{
+  opacity: 0.3;
 }
