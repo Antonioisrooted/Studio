@@ -32,4 +32,33 @@ h3{
 }
 .mini-services{
   padding-top: 120px;
+  padding-bottom: 120px;
+}
+.what{
+  text-align: center;
+  padding-top: 50px;
+}
+.container-fluid{
+  padding-top: 25px;
+}
+.portfolio{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.row{
+  text-align: center;
+}
+.contact{
+  background-image: url("../IP3/assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 240px;
+}
+.icon{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
 }
