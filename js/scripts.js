@@ -1,6 +1,5 @@
 $(documents).ready(function(){
-    $("#clickable1").click(function(){
-        $("#one").toggle();
+
     })
 })
 
@@ -14,5 +13,5 @@ function myFunction(){
     if (name == "" || email == "" || message == ""){
       alert ("enter your name, email and a commment")
     }
-     else alert( name + " we have received your message. Thank you for reaching out to us. ")
+     else alert( name + " ,we have received your message. Thank you for reaching out to us. ")
   }
