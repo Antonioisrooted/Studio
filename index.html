@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>         
+
+        
   
   <title>Delani Studio</title> 
   </head> 
@@ -14,12 +18,12 @@
   <!--Image Slider-->
   <div class="top">
     <div class="mini-top">
-        <img src="IP3/assets/logo/logo.png"><br><br>
+        <img src="Img/logo.png"><br><br>
         <br><h1>WELCOME<br> TO DELANI STUDIO</h1>
         <H6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRNOMENT</H6>
     </div> 
     <div class="tiny-top">
-        <img src="IP3/assets/mouse_click.png">
+        <img src="Img/mouse_click.png">
     </div>
   </div>
 
@@ -52,35 +56,35 @@
   <div class="container-fluid padding">
     <div class="row text-center padding">
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <i class="fas fa-code"><img src="../Studio/IP3/assets/services_icons/design_icon.png"></i>
-        <h6><strong>DESIGN</strong></h6>
+        <div id="clickable1"><i class="fas fa-code"><img src="Img/design_icon.png"></i>
+        <h6><strong>DESIGN</strong></h6></div>
 
-        <P>Our design practice offers a full range of services<br>
+        <div class="dropdown" id="one"><P><h6><strong>DESIGN</strong></h6><br>Our design practice offers a full range of services<br>
           including brand strategy, interaction and visual design<br>
           and user experience testing.<br>
           <br>Throughout your project, our designers create and<br>
           implement  visual design and workflows, solicit user<br>
           feedback and work with you to make sure what gets built<br>
-          is what is needed. </P>
+          is what is needed. </P></div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <i class="fas fa-code"><img src="../Studio/IP3/assets/services_icons/dev_icon.png"></i>
-        <h6><strong>DEVELOPMENT</strong></h6>
+        <div class="clickable2"><i class="fas fa-code"><img src="Img/dev_icon.png"></i>
+        <h6><strong>DEVELOPMENT</strong></h6></div>
 
-        <P>All engineers are fluent in the latest enterprice, mobile<br>
+        <div class="dropdown" id="two"><P><h6><strong>DEVELOPMENT</strong></h6><br>All engineers are fluent in the latest enterprice, mobile<br>
           and web development technologies.<br>
           <br>They collaborate with your team to write, and improve<br> 
           code on a daily basis, using proven practices such as<br>
-          test-driven development and pair programming. </P>
+          test-driven development and pair programming. </P></div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <i class="fas fa-code"><img src="../Studio/IP3/assets/services_icons/product_icon.png"></i>
-        <h6><strong>PROJECT MANAGEMENT</strong></h6>
+        <div class="clickable3"><i class="fas fa-code"><img src="Img/product_icon.png"></i>
+        <h6><strong>PROJECT MANAGEMENT</strong></h6></div>
 
-        <P>Planning and development is iterative. Because we are<br>
+        <div class="dropdown"  id="three"><P><h6><strong>PROJECT MANAGEMENT</strong><br>Planning and development is iterative. Because we are<br>
           constantly coding and testing, the products we build are<br>
           always ready to go live.<br>
-          <br>This iterative process allows for changes as business<br> requirements evolve.<br></P>
+          <br>This iterative process allows for changes as business<br> requirements evolve.<br></P></div>
       </div>
     </div>
   </div>
@@ -89,39 +93,49 @@
   <!--Portfolio-->
   <div class="portfolio">
     <h3>PORTFOLIO</h3>
+    <div class="Photo">
     <div class="container-fluid padding">
       <div class="row text-center">
         <div class="col-sm-6 col-md-3">
-          <img src="../Studio/IP3/assets/portfolio/work1.jpg">
+          <img id="work1" src="Img/work1.jpg">
+          <p class="work1">one on one</p>
         </div>
         <div class="col-sm-6 col-md-3">
-          <img src="../Studio/IP3/assets/portfolio/work2.jpg">
+          <img id="work2" src="Img/work2.jpg">
+          <p class="work2">menu</p>
         </div>
         <div class="col-sm-6 col-md-3">
-          <img src="../Studio/IP3/assets/portfolio/work3.jpg">
+          <img id="work3" src="Img/work3.jpg">
+          <p class="work3">come</p>
         </div>
         <div class="col-sm-6 col-md-3">
-          <img src="../Studio/IP3/assets/portfolio/work4.jpg">
+          <img id="work4" src="Img/work4.jpg">
+          <p class="work4">requirements</p>
         </div>
       </div>
     </div>
     <div class="container-fluid padding">
       <div class="row text-center">
         <div class="col-sm-6 col-md-3">
-          <img src="../Studio/IP3/assets/portfolio/work5.jpg">
+          <img id="work5" src="Img/work5.jpg">
+          <p class="work5">cow</p>
         </div>
         <div class="col-sm-6 col-md-3">
-          <img src="../Studio/IP3/assets/portfolio/work6.jpg">
+          <img id="work6" src="Img/work6.jpg">
+          <p class="work6">dogs</p>
         </div>
         <div class="col-sm-6 col-md-3">
-          <img src="../Studio/IP3/assets/portfolio/work7.jpg">
+          <img id="work7" src="Img/work7.jpg">
+          <p class="work7">charset</p>
         </div>
         <div class="col-sm-6 col-md-3">
-          <img src="../Studio/IP3/assets/portfolio/work8.jpg">
+          <img id="work8" src="Img/work8.jpg">
+          <p class="work8">old</p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
   <!--Contact Us-->
   <div class="contact">
@@ -130,24 +144,25 @@
       <div class="col-md-4 col-sm-4 col-xs-12"></div>
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div id="fill">
-          <form id="contactform" class="forms" method="post">
+          
+          <form action="https://yahoo.us4.list-manage.com/subscribe/post?u=28c924ff8b2f22aad2b30f4d9&amp;id=612f2aee09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate id="contactform" class="forms" method="post">
             <div class="row">
               <div class="col">
                 <div class="form-group">
-                  <input id="name" type="text" class="form-control" name="name" value="" placeholder="Name...">
+                  <input id="name" type="text" class="form-control" name="name" value="" placeholder="Name..." style="background-color: transparent;">
                 </div>
               </div>
               <div class="col">
                 <div class="form-group">
-                  <input id="email" type="email" class="form-control" name="_replyto" value="" placeholder="Email...">
+                  <input id="email" type="email" class="form-control" name="_replyto" value="" placeholder="Email..." style="background-color: transparent;">
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <textarea id="message" name="message" rows="8" cols="80" class="form-control" placeholder="Type message here..." type="text"></textarea>
+              <textarea id="message" name="message" rows="8" cols="80" class="form-control" placeholder="Type message here..." type="text" style="background-color: transparent;"></textarea>
             </div>
             <div class="text-right">
-              <button type="submit" id="button-color" class="btn" value="reset"> submit</button>
+              <button type="submit" id="button-color" class="btn" onclick="myFunction()" value="reset"> submit</button>
             </div>
           </form>
         </div>
@@ -160,16 +175,16 @@
   <div class="container-fluid padding">
     <div class="row text-center padding">
       <div class="col-12">
-        <img src="../Studio/IP3/assets/social_icons/behance.png">
-        <img src="../Studio/IP3/assets/social_icons/dribble.png">
-        <img src="../Studio/IP3/assets/social_icons/facebook.png">
-        <img src="../Studio/IP3/assets/social_icons/flickr.png">
-        <img src="../Studio/IP3/assets/social_icons/g_plus.png">
-        <img src="../Studio/IP3/assets/social_icons/pinterest.png">
-        <img src="../Studio/IP3/assets/social_icons/skype.png">
-        <img src="../Studio/IP3/assets/social_icons/stumble_upon.png">
-        <img src="../Studio/IP3/assets/social_icons/twitter.png">
-        <img src="../Studio/IP3/assets/social_icons/you_tube.png">
+        <img src="Img/behance.png">
+        <img src="Img/dribble.png">
+        <img src="Img/facebook.png">
+        <img src="Img/flickr.png">
+        <img src="Img/g_plus.png">
+        <img src="Img/pinterest.png">
+        <img src="Img/skype.png">
+        <img src="Img/stumble_upon.png">
+        <img src="Img/twitter.png">
+        <img src="Img/you_tube.png">
       </div>
     </div>
   </div>
@@ -179,9 +194,8 @@
     2019
   </p>
 </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>   
     <script src="js/scripts.js"></script>
 </body>
 </html>
